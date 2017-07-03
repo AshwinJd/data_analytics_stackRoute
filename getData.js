@@ -1,6 +1,6 @@
 const http = require('http');
 const MongoClient = require('mongodb').MongoClient
-  , assert = require('assert');
+    , assert = require('assert');
 const request = require('superagent');
 
 //author: Ashwin Jayadev
