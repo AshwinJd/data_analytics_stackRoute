@@ -24,8 +24,6 @@ var insertDocuments = function(db, callback) {
       .end((err,res)=>{
         if(err) throw err;
         json = res.body["evaluations"];
-
-
         //  collection name is documents
         let collection = db.collection('documents');
         // Insert some documents
